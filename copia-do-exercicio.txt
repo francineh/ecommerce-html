@@ -15,30 +15,45 @@ Veja a nossa lista de teclados disponíveis:{aqui foi feito uma lista usando a t
 <h2  para o subtitulo># Keycron K2</h2>
 <p para descrição do produto>
 Um teclado bluetooth com ótimo alcance, que usa as switch <em para dar enfase no texto>Cherry Red</em> excelentes para games. Possui <strong>iluminação RGB</strong> com mais de 10 efeitos diferentes.</p> 
-Ver mais detalhes e Preço do Keycron K2 
+<div>a tag <a> fica dentro de uma div para dar essa quebra de linha 
+Ver mais detalhes e Preço do Keycron K2 <a > com um link para uma pagina omde tinha uma imagem e um preço</a>
+</div>
 </section>
 
 # OLKB Plank
-Com apenas 44 teclas esse teclado ortolinear vai melhorar sua ergonomia ao trabalhar com código. Suas mão nao precisam fazer um caminho muito longo entre uma tecla e outra. E o melhor, possui firmware QMK o que permite você atualizar gravar quantas macros vc desejar.
+Com apenas <strong>44 teclas</strong> esse teclado ortolinear vai melhorar sua ergonomia ao trabalhar com código. Suas mão nao precisam fazer um caminho muito longo entre uma tecla e outra. E o melhor, possui firmware QMK o que permite você <em>atualizar gravar quantas macros vc desejar.</em>
 Ver mais detalhes e Preço do OLKB
 
 # Ergo Dox
 Falando em teclado ergonomico e que aceita macros, nao podemos deixar de apresentar o Ergo Dox. Um teclado revolucionario que te ensinará a digitar novamente.
 Ver mais detalhes e Preço Ergo Dox
 
+temos uma lista ordenada usado um <ol>
 
 Teclados mais vendidos:
 1) OLKB Plank
 2) Ergo Dox
 3) Keycron K2
 
-Se você quiser, entre em contato pelo formulário abaixo:
+<p>Se você quiser, entre em contato pelo formulário abaixo:</p>
+<form action="/contato">
+   
 
-Nome: <>
-Email: <>
-Mensagem: <>
-[Enviar]
+Nome: <> <label for="nome" > Nome:</label> 
+<input type="text" name="nome" id="nome"></input>
+<
+Email: <><label for="email" > Email:</label>    
+<input type="email" name="email" id="email"></input>
 
-Siga-nos nas nossas mídias sociais
-[Instagram] => https://Instagram.com/douglascorrea.io
-[Youtube]  => https://youtube.com/c/douglascorrea
+Mensagem: <> <label for="mensagem" >Mensagem</label>    
+<textarea id="mensagem"></textarea>
+
+[Enviar] <button type="submit">Enviar</button>  
+obs: SEMPRE COLOCAR O BOTAO DO TIPO SUBMIT EM UM FORMULARIO.
+<footer>
+<p>Siga-nos nas nossas mídias sociais<p/>
+[Instagram] => https://Instagram.com/douglascorrea.io = <a href="http://instagram.com/douglascorrea.io">Instagram</a>
+
+[Youtube]  => https://youtube.com/c/douglascorrea <a href=" https://youtube.com/c/douglascorrea">Youtube</a>
+
+</footer>
